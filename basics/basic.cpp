@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
-int sumadd(int a , int b);
-
+ 
 int main() {
     // use cout << "Namaste Bharat" ; to print in teminal.
     cout << "Namaste Bharat" ;
@@ -16,27 +15,11 @@ int main() {
     cout << "Enter a number: " << endl ;
     // cin >> a;
     cout << "You Enter " << a << endl ;
-    int sum = sumadd(5,5) ;
-    cout << sum << endl;
 
     cout << 'a' + 0 << endl; // it will print asci value of a that is 97
 
-    int i = 0;
-    if (i > 10)
-    {
-        cout << i << endl ;
-        i++;
-    }
-    else {
-        cout << "i is less than 10" << endl ;
-    }
-
-
-    for (int i = 0; i < 10; i++)
-    {
-        cout << i << endl ;
-    }
-
+   
+    // sizeOf () will return how much memory is taken in bytes
     long long ab = 5;
     cout << sizeof(ab) << endl;
     
@@ -51,17 +34,20 @@ int main() {
 
     // Explicit Type Casting 
     float abc = 5.7;
-    float add2 = (int)abc + 2;
+    float add2 = (int)abc + 2; // if we want to convert abd to float:- (float)abc , Double:- (double)abc
     cout << add2 << endl ;
 
+    // if we store any int in char it will store charater according to its ascci value
     char ch1 = 254;
     cout << ch1 << endl ;
 
+    // This will return 1 or 0 , if true than 1 and if false than 0
     cout << (ab > c) << endl ;
+    
+    char res = 'a';
+    char res2 = (char)res+1;
+    cout << res2 << endl;
     return 0;
 }
 
-int sumadd(int a , int b){
-    int sum = a + b;
-    return sum;
-}
+ 
