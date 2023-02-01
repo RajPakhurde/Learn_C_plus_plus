@@ -4,7 +4,7 @@ using namespace std;
 int main() {
     // use cout << "Namaste Bharat" ; to print in teminal.
     cout << "Namaste Bharat" ;
-    // use end1 to print next line
+    // use end1 to print next line.
     cout << endl ;
     cout << 2 ;
     cout << "2" ;
