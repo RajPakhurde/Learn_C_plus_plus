@@ -113,5 +113,55 @@ int main()
     //         }
     //     }
     // }
+
+    // Q6 sort array of 0 and 1
+
+    // vector<int> arr{0, 1, 0, 1, 0, 0, 1, 1, 0, 0, 1};
+
+    // int start = 0;
+    // int end = arr.size() - 1;
+    // int i = 0;
+
+    // while (start <= end)
+    // {
+    //     if (arr[start] == 0)
+    //     {
+    //         swap(arr[start], arr[i]);
+    //         i++;
+    //         start++;
+    //     }
+    //     else
+    //     {
+    //         swap(arr[end], arr[i]);
+    //         end--;
+    //     }
+    // }
+
+    // for (auto value : arr)
+    // {
+    //     cout << value << " ";
+    // }
+
+    // Q Left shift array by 1
+    // vector<int> arr{1, 2, 3, 4, 5};
+    // int end = arr[0];
+    // for (int i = 0; i < arr.size(); i++)
+    // {
+
+    //     if (i == arr.size() - 1)
+    //     {
+    //         arr[i] = end;
+    //     }
+    //     else
+    //     {
+    //         arr[i] = arr[i + 1];
+    //     }
+    // }
+
+    // for (auto value : arr)
+    // {
+    //     cout << value << " ";
+    // }
+
     return 0;
 }
